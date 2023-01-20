@@ -1,0 +1,96 @@
+:root {
+	--soft-red: hsl(10, 79%, 65%);
+	--cyan: hsl(186, 34%, 60%);
+	--cream: hsl(27, 66%, 92%);
+	--orange: hsl(33, 100%, 98%);
+	--brown: hsl(28, 10%, 53%);
+	--dark-brown: hsl(25, 47%, 15%);
+}
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	font-family: 'DM Sans', sans-serif;
+}
+body {
+	background-color: var(--cream);
+}
+
+main {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.charts__component {
+	width: 22rem;
+}
+
+.balance {
+	display: flex;
+	justify-content: space-between;
+    align-items: center;
+	padding: 1.5rem;
+	border-radius: 0.5rem;
+	background-color: var(--soft-red);
+    color:var(--orange);
+}
+
+.logo img{
+    width: 3.5rem;
+}
+
+.charts__card {
+	padding: 2rem 1.5rem;
+	margin-top: 1rem;
+	border-radius: 0.5rem;
+	background-color: var(--orange);
+}
+
+.charts {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 10rem;
+    margin-bottom: 1.5rem;
+}
+
+.chart {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.chart span{
+    margin-top: 0.5rem;
+    color: var(--brown);
+    font-size: 0.8rem;
+}
+.chart__fill {
+    width: 2rem;
+    height: 5rem;
+    border-radius: .2rem;
+    background-color: var(--soft-red);
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.5rem;
+    border-top: 2px solid var(--cream);
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
