@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | Expenses chart component</title>
 </head>
 
@@ -27,46 +27,31 @@
       <div class="charts__card">
         <h2>Spending - Last 7 days</h2>
         <div class="charts">
-          <div class="chart"><span>mon</span><div class="chart__fill"></div></div>
-          <div class="chart"><span>tue</span><div class="chart__fill"></div></div>
-          <div class="chart"><span>wed</span><div class="chart__fill"></div></div>
-          <div class="chart"><span>thu</span><div class="chart__fill"></div></div>
-          <div class="chart"><span>fri</span><div class="chart__fill"></div></div>
-          <div class="chart"><span>sat</span><div class="chart__fill"></div></div>
-          <div class="chart"><span>sun</span><div class="chart__fill"></div></div>
+          <!-- <div class="chart"><span>mon</span><div class="chart__fill"></div><span id="popup__price"></span></div>
+          <div class="chart"><span>tue</span><div class="chart__fill"></div><span id="popup__price"></span></div>
+          <div class="chart"><span>wed</span><div class="chart__fill"></div><span id="popup__price"></span></div>
+          <div class="chart"><span>thu</span><div class="chart__fill"></div><span id="popup__price"></span></div>
+          <div class="chart"><span>fri</span><div class="chart__fill"></div><span id="popup__price"></span></div>
+          <div class="chart"><span>sat</span><div class="chart__fill"></div><span id="popup__price"></span></div>
+          <div class="chart">
+            <span>sun</span>
+            <div class="chart__fill"></div>
+            <span id="popup__price"></span>
+          </div> -->
         </div>
         <div class="summary">
           <div>
             <span>Total this month</span>
-            <h1>$478.33</h1>
+            <h1 id="total"></h1>
           </div>
           <div>
-            <p>+2.4%</p>
+            <p id="increase">+2.4%</p>
             <span>from last month</span>
           </div>
         </div>
       </div>
     </div>
-
   </main>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
   <footer>
     <div class="attribution">
@@ -74,7 +59,7 @@
       Coded by <a href="#">Shaymoun</a>.
     </div>
   </footer>
-
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
