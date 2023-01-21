@@ -147,7 +147,7 @@ div > p:first-child {
 
 @media (min-width:768px) {
 	.charts__component {
-		width: 30rem;
+		width: 33rem;
 	}
 	.chart__fill {
 		width: 3rem;
@@ -159,5 +159,29 @@ div > p:first-child {
 		border-radius: .2rem;
 		font-size: .9rem;
 		top: -3rem;
+	}
+	.balance {
+		padding: 2rem;
+		border-radius: 1rem;
+	}
+	
+	.logo img{
+		width: 4rem;
+	}
+	.balance h2 {
+		font-size: 1.8rem;
+	}
+	
+	.charts__card {
+		padding: 3rem 2rem;
+		margin-top: 1rem;
+		border-radius: 1rem;
+		background-color: var(--orange);
+	}
+	.charts__card {
+		font-size: 1.2rem;
+	}
+	#total {
+		font-size: 2.7rem;
 	}
 }
