@@ -18,7 +18,8 @@ const fetchExpenses = async () => {
         innerDiv.classList.add('chart__fill')
         innerDiv.style.height = `${((day.amount/totalExpenses)*100)/2}rem`
         const popupSpan = document.createElement('span')
-        popupSpan.setAttribute('id','popup__price')
+        popupSpan.classList.add('popup')
+        popupSpan.classList.add('popup__price')
         popupSpan.textContent = `$${day.amount}`
         outerDiv.append(dayLabel,innerDiv,popupSpan)
         charts.append(outerDiv)
